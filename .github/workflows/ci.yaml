@@ -24,7 +24,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t tabnai007/my-python-app .
+        docker build -t tabani007/my-python-app .
 
     - name: Push Docker image
       run: |
