@@ -36,9 +36,9 @@ jobs:
 
     steps:
     - name: Log in to Heroku
-      uses: akhileshns/heroku-deploy@v3.8.10
+      uses: akhileshns/heroku-deploy@v3.9.9
       with:
         heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-        heroku_app_name: your-heroku-app-name
-        heroku_email: your-email@example.com
-        docker_image: your-dockerhub-username/my-python-app
+        heroku_app_name: Demo Heroku APP
+        heroku_email: mointabani24@gamil.com
+        docker_image: tabani007/my-python-app
