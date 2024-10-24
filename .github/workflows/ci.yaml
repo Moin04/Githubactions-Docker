@@ -31,8 +31,9 @@ jobs:
 
       # Step 4: Build the Docker image
       - name: Build Docker image
-        run: docker build -t my-python-app .
-             docker images
+        run: |
+          docker build -t my-python-app .
+          docker images
 
   deploy:
     runs-on: ubuntu-latest
